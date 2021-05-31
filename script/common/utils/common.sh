@@ -1,6 +1,6 @@
 #!/bin/bash
-source script/common/utils/spinner.sh
-source script/common/utils/logging.sh
+source /Users/manabu/Documents/canvas-lms/script/common/utils/spinner.sh
+source /Users/manabu/Documents/canvas-lms/script/common/utils/logging.sh
 
 # This file contains commonly used BASH functions for scripting in canvas-lms,
 # particularly script/canvas_update and script/rebase_canvas_and_plugins . As such,

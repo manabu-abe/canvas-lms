@@ -1,5 +1,5 @@
 #!/bin/bash
-source script/common/utils/common.sh
+source /Users/manabu/Documents/canvas-lms/script/common/utils/common.sh
 
 function ensure_in_canvas_root_directory {
   if ! is_canvas_root; then

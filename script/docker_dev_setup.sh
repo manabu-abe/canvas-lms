@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
-source script/common/utils/common.sh
-source script/common/canvas/build_helpers.sh
+source /Users/manabu/Documents/canvas-lms/script/common/utils/common.sh
+source /Users/manabu/Documents/canvas-lms/script/common/canvas/build_helpers.sh
 
 trap 'trap_result' ERR EXIT
 trap "printf '\nTerminated\n' && exit 130" SIGINT
